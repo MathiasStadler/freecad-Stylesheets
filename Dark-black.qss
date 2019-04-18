@@ -624,7 +624,7 @@ QTabBar::close-button {
 }
 
 QTabBar::close-button:hover {
-    background-color: rgba(255,255,255,20);
+    background-color: #040404;
 }
 
 QTabBar::close-button:pressed {
@@ -1562,7 +1562,7 @@ Radio button
 ==================================================================================================*/
 QRadioButton::indicator:unchecked{
     color: black;
-    background-color: rgba(255,255,255,20);
+    background-color: #040404;
     border: 1px solid #5a5a5a;
 }
 
@@ -1614,7 +1614,7 @@ QCheckBox:disabled {
 
 QCheckBox::indicator {
     color: black;
-    background-color: rgba(255,255,255,20);
+    background-color: #040404;
     border: 1px solid #5a5a5a;
     width: 11px;
     height: 11px;
@@ -1640,7 +1640,7 @@ QCheckBox:disabled {
 }
 
 QCheckBox::indicator:disabled {
-    background-color: rgba(255,255,255,20);
+    background-color: #040404;
     border: 1px solid rgba(255,255,255,20);
 }
 
@@ -1661,7 +1661,7 @@ Checkboxs inside QListWidget and QTreeView
 QListWidget::indicator,
 QTreeView::indicator {
     color: #c8c8c8;
-    background-color: rgba(255,255,255,20);
+    background-color: #040404;
     border: 1px solid #5a5a5a;
     width: 11px;
     height: 11px;
@@ -1706,7 +1706,7 @@ QTreeView::indicator:checked {
 
 QListWidget::indicator:disabled,
 QTreeView::indicator:disabled {
-    background-color: rgba(255,255,255,20);
+    background-color: #040404;
     border: 1px solid rgba(255,255,255,20);
 }
 
@@ -2146,7 +2146,7 @@ QToolBar#Selector QToolButton:!checked {
 /* Unactive tabs (hover) */
 QToolBar#Selector QToolButton:!checked:hover {
     color: rgba(255,255,255,255);
-    background-color: rgba(255,255,255,20);
+    background-color: #040404;
 }
 
 /* Unactive tabs (pressed) */
