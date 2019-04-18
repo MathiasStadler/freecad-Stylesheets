@@ -1675,7 +1675,7 @@ QTreeView::indicator {
 
 QListWidget::indicator:selected,
 QTreeView::indicator:selected {
-    background-color: #e6e6e6;
+    background-color: #010101;
 }
 
 QListWidget::indicator:checked:selected,
