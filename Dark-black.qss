@@ -119,7 +119,7 @@ QMenuBar::item:pressed,
 QMenu::item:selected,
 QMenu::item:pressed {
     color: white;
-    background-color: #94b30f;
+    background-color: #030303;;
 }
 
 QMenu::right-arrow {
@@ -169,7 +169,7 @@ QMenu QToolButton:pressed,
 QMenu QPushButton:selected,
 QMenu QToolButton:selected {
     color: white;
-    background-color: #94b30f; /* same as QMenu::item:selected and QMenu::item:pressed */
+    background-color: #030303;; /* same as QMenu::item:selected and QMenu::item:pressed */
 }
 
 QMenu QRadioButton:disabled,
@@ -606,7 +606,7 @@ QDialog#Gui__Dialog__DlgPreferences > QListView::item:hover {
 
 QDialog#Gui__Dialog__DlgPreferences > QListView::item:selected {
     color: white;
-    background-color: #94b30f;
+    background-color: #030303;;
 }
 
 
@@ -717,7 +717,7 @@ QTableView {
     alternate-background-color: #bebebe; /* related with QListView background  */
     border: 1px solid #505050;
     selection-color: white;
-    selection-background-color: #94b30f; /* should be similar to QListView::item selected background-color */
+    selection-background-color: #030303;; /* should be similar to QListView::item selected background-color */
     show-decoration-selected: 1; /* make the selection span the entire width of the view */
     border-radius: 3px;
 }
@@ -730,7 +730,7 @@ QTreeView::item:hover  {
 QListView::item:selected,
 QTreeView::item:selected  {
     color: white; /* should be similar to QListView selection-color */
-    background-color: #94b30f; /* should be similar to QListView selection-background-color */
+    background-color: #030303;; /* should be similar to QListView selection-background-color */
     show-decoration-selected: 1; /* make the selection span the entire width of the view */
 }
 
@@ -1382,14 +1382,14 @@ QComboBox::down-arrow:disabled {
 /* ComboBox menu */
 QComboBox {
     selection-color: white;
-    selection-background-color: #94b30f;
+    selection-background-color: #030303;;
 }
 
 QComboBox QAbstractItemView {
     color: #bebebe; /* same as regular QComboBox color */
     background-color: transparent;
     selection-color: white;
-    selection-background-color: #94b30f;
+    selection-background-color: #030303;;
     border-width: 5px 0px 5px 0px;
     border-style: solid;
     border-color: transparent;
@@ -1431,7 +1431,7 @@ QPushButton:pressed {
 }
 
 QPushButton:checked {
-    background-color: #94b30f;
+    background-color: #030303;;
     border-color: #819c0c;
 }
 
@@ -1482,7 +1482,7 @@ Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QWidget > QWidget > QF
 }
 
 QPushButton:checked {
-    background-color: #94b30f;
+    background-color: #030303;;
     border-color: #819c0c;
 }
 
@@ -1567,7 +1567,7 @@ QRadioButton::indicator:unchecked{
 }
 
 QRadioButton::indicator:checked {
-    background-color: #94b30f; /* QCheckBox has the same color */
+    background-color: #030303;; /* QCheckBox has the same color */
     border: 1px solid #819c0c; /* QCheckBox has the same color */
     image:url(qss:images_dark-light/radiobutton_light.svg);
 }
@@ -1629,7 +1629,7 @@ QCheckBox::indicator:checked:pressed {
 }
 
 QCheckBox::indicator:checked {
-    background-color: #94b30f; /* QRadioButton has the same color */
+    background-color: #030303;; /* QRadioButton has the same color */
     border: 1px solid #819c0c; /* QRadioButton has the same color */
     image:url(qss:images_dark-light/checkbox_light.svg);
 }
@@ -1645,7 +1645,7 @@ QCheckBox::indicator:disabled {
 }
 
 QCheckBox::indicator:indeterminate {
-    background-color: #94b30f;
+    background-color: #030303;;
     border: 1px solid #819c0c;
     image: url(qss:images_dark-light/checkbox_indeterminate_light.svg);
 }
@@ -1699,7 +1699,7 @@ QTreeView::indicator:checked:pressed {
 
 QListWidget::indicator:checked,
 QTreeView::indicator:checked {
-    background-color: #94b30f; /* QRadioButton has the same color */
+    background-color: #030303;; /* QRadioButton has the same color */
     border: 1px solid #819c0c; /* QRadioButton has the same color */
     image:url(qss:images_dark-light/checkbox_light.svg);
 }
@@ -1712,7 +1712,7 @@ QTreeView::indicator:disabled {
 
 QListWidget::indicator:indeterminate,
 QTreeView::indicator:indeterminate {
-    background-color: #94b30f;
+    background-color: #030303;;
     border: 1px solid #819c0c;
     image: url(qss:images_dark-light/checkbox_indeterminate_light.svg);
 }
@@ -1779,7 +1779,7 @@ QSlider::handle:vertical:hover,
 QSlider::handle:horizontal:pressed,
 QSlider::handle:vertical:pressed {
     border-color: #94b30f;
-    background-color: #94b30f;
+    background-color: #030303;;
 }
 
 QSlider::handle:horizontal:disabled,
@@ -2046,7 +2046,7 @@ QTableView > QWidget > QDateEdit:focus,
 QTableView > QWidget > QDateTimeEdit:focus {
     color: #566214;
     selection-color: white;
-    selection-background-color: #94b30f;
+    selection-background-color: #030303;;
     border-color: #dadfc5;
     background-color: #dadfc5;
 }
