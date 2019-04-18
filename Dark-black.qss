@@ -88,7 +88,7 @@ QMainWindow,
 QDialog,
 QDockWidget,
 QToolBar  {
-    background-color: #6e6e6e; /* main background color */
+    background-color: #000000; /* main background color */
 }
 
 QMdiArea {
@@ -104,7 +104,7 @@ MENUS
 QMenuBar,
 QMenuBar::item {
     color: #e0e0e0;
-    background-color: #6e6e6e; /* main background color */
+    background-color: #000000; /* main background color */
 }
 
 QMenu,
@@ -535,7 +535,7 @@ QTabBar::tab:right {
 
 QTabBar::tab:selected {
     color: #d2d2d2;
-    background-color: #6e6e6e; /* same as tab content background color */
+    background-color: #000000; /* same as tab content background color */
     border-color: #5a5a5a;
 }
 
@@ -647,7 +647,7 @@ QTabBar::scroller {
 
 QTabBar QToolButton,
 QTabBar QToolButton:hover {
-    background-color: #6e6e6e; /* same as main background color */
+    background-color: #000000; /* same as main background color */
 }
 
 QTabBar QToolButton::right-arrow:enabled {
@@ -1465,7 +1465,7 @@ Gui--ColorButton:pressed {
 
 /* Pushbutton style for "..." inside Placement cell which launches Placement tool */
 Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton {
-    background-color: #6e6e6e;
+    background-color: #000000;
     border: 1px solid #5a5a5a;
     min-width: 16px; /* reset it due to larger value on regular QPushButton, same or bigger value as regular QPushButton min-height */
     border-radius: 0px;
@@ -1475,7 +1475,7 @@ Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton {
 
 /* Fix for Expressions description QFrame that is "broken" with initial reset */
 Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QWidget > QWidget > QFrame {
-    background-color: #6e6e6e; /* main background color */
+    background-color: #000000; /* main background color */
     border: 1px solid #5a5a5a;
     border-radius: 2px;
     padding: 2px 6px;
@@ -2133,7 +2133,7 @@ QToolBar#Selector QToolButton {
 /* Active tab */
 QToolBar#Selector QToolButton:checked {
     color: white;
-    background-color: #6e6e6e;
+    background-color: #000000;
 }
 
 /* Unactive tabs */
